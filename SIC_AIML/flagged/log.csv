@@ -1,0 +1,5 @@
+file_name,MODEL,output,flag,username,timestamp
+flagged\file_name\24d9d1506673019d9024\Suneel_Menon_Mookul_Maruthur_Suneel_vs_P_K_Bajaj_Son_Of_Late_Sh_A_P_Bajaj_on_4_October_2013 4.PDF,Random Forest,,,,2024-06-11 15:39:15.862395
+flagged\file_name\a2b9cfec2cd891c67335\State_Of_Orissa_Ors_vs_Harpiya_Bisoi_on_20_April_2009.PDF,Long Short-Term Memory (LSTM),72,,,2024-06-11 16:53:02.863819
+flagged\file_name\6f99a8e5e8e286bcc155\Smithkline_Beecham_Consumer_vs_G_D_Rathore_And_Ors_on_16_January_2002.PDF,Random Forest,Copyright,,,2024-06-11 21:41:04.157194
+,Random Forest,Copyright,,,2024-06-11 21:41:17.280920

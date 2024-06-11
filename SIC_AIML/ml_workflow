@@ -1,0 +1,51 @@
+// Machine Learning Workflow
+digraph {
+	A [label="Data Collection and Loading"]
+	B [label="Data Preprocessing"]
+	C [label="Feature Extraction and Encoding"]
+	D [label="Model Selection"]
+	E [label="Model Training and Evaluation"]
+	F [label="Model Saving and Visualization"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	A1 [label="Load and Preprocess Data from Different File Types" shape=box]
+	A -> A1
+	B1 [label="Extract and Clean Text Data" shape=box]
+	B -> B1
+	C1 [label="Convert Text Data to Numerical Features" shape=box]
+	C -> C1
+	C2 [label="- Use TF-IDF Vectorizer
+- Encode Labels using LabelEncoder" shape=box]
+	C1 -> C2
+	D1 [label="Choose Machine Learning Model" shape=box]
+	D -> D1
+	D2 [label="- Random Forest
+- XGBoost
+- Naive Bayes" shape=box]
+	D1 -> D2
+	E1 [label="Train the Chosen Model" shape=box]
+	E -> E1
+	E2 [label="- Fit model on training data
+- Evaluate model on test data" shape=box]
+	E1 -> E2
+	E3 [label="Performance Metrics Calculation" shape=box]
+	E2 -> E3
+	E4 [label="- Accuracy
+- Confusion Matrix
+- Classification Report
+- ROC Curve and AUC" shape=box]
+	E3 -> E4
+	F1 [label="Save the Trained Model" shape=box]
+	F -> F1
+	F2 [label="- Save model using joblib
+- Save TF-IDF vectorizer" shape=box]
+	F1 -> F2
+	F3 [label="Plot Evaluation Metrics" shape=box]
+	F -> F3
+	F4 [label="- Confusion Matrix Heatmap
+- ROC Curve" shape=box]
+	F3 -> F4
+}
